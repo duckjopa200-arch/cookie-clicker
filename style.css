@@ -1,3 +1,98 @@
+/*lehe vormistus*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+	font-family: "Outfit", sans-serif;
+}
+
+body{
+background: linear-gradient(315deg,rgba(216, 95, 192, 1) 0%, rgba(153, 95, 216, 1) 50%, rgba(83, 116, 237, 1) 100%);
+}
+
+/*riba*/
+
+ul{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+button {
+	cursor: pointer;
+	border: none;
+	background: none;
+}
+'
+img{
+	width: 100%;
+}
+
+navigation .navbar{
+	background:  radial-gradient(circle,rgba(250, 205, 60, 1) 0%, rgba(252, 70, 107, 1) 100%);
+	display: flex;
+	padding: 20px;
+	align-items: center;
+	justify-content:space-between;
+	border-radius: 10px;
+
+}
+
+.navbar .nav-logo .logo-text{
+	color: white;
+}
+
+.navbar .nav-menu{
+	display: flex;
+	gap: 10px;
+}
+
+.navbar .nav-menu .nav-link{
+	padding: 10px;
+	color: white;
+	font-size: 20px;
+	background:none;
+	border-radius: 10px;
+	transition: o.5s ease;
+}
+
+.navbar .nav-menu .nav-link:hover {
+	color: white;
+	background: black;
+
+}
+
+/*sisu*/
 
 
+#aboutme{
+	color: white;
+	width: 500px;
+	height: 150px;
+	border: 10px solid pink;
+	border-radius: 10px;
+	padding: 15px;
+	margin:0;
+	margin-top: 67px;
+	background: radial-gradient(circle,rgba(250, 205, 60, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
 
+
+#cookie{
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	font-size:24px ;
+	height: 200px;
+	padding: 30px;
+	margin: 0px;
+	margin-top: 50px;
+	border: 10px solid pink;
+	border-radius: 10px;
+	background: radial-gradient(circle,rgba(250, 205, 60, 1) 0%, rgba(252, 70, 107, 1) 100%);
+}
+
+#cookieBtn{
+	size: 24px;
+}

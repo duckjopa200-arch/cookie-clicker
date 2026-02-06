@@ -5,7 +5,7 @@
 }
 
 body{
-background: linear-gradient(315deg,rgba(216, 95, 192, 1) 0%, rgba(153, 95, 216, 1) 50%, rgba(83, 116, 237, 1) 100%);
+ background: linear-gradient(315deg,rgba(190, 70, 150, 1) 0%, rgba(130, 70, 190, 1) 50%, rgba(60, 90, 210, 1) 100%);
 }
 
 /*riba*/
@@ -29,7 +29,7 @@ img{
 }
 
 navigation .navbar{
-	background:  radial-gradient(circle,rgba(250, 205, 60, 1) 0%, rgba(252, 70, 107, 1) 100%);
+	background:  radial-gradient(circle,rgba(250, 205, 60, 1) 0%, rgba(250, 70, 110, 1) 100%);
 	display: flex;
 	padding: 20px;
 	align-items: center;
@@ -58,8 +58,7 @@ navigation .navbar{
 
 .navbar .nav-menu .nav-link:hover {
 	color: white;
-	background: black;
-
+	background: linear-gradient(315deg,rgba(215, 95, 175, 1) 0%, rgba(155, 95, 215, 1) 50%, rgba(85, 115, 235, 1) 100%);
 }
 
 /*sisu*/
@@ -69,12 +68,12 @@ navigation .navbar{
 	color: white;
 	width: 500px;
 	height: 150px;
-	border: 10px solid pink;
+	border: 5px solid whitesmoke;
 	border-radius: 10px;
 	padding: 15px;
 	margin:0;
 	margin-top: 67px;
-	background: radial-gradient(circle,rgba(250, 205, 60, 1) 0%, rgba(252, 70, 107, 1) 100%);
+	background: linear-gradient(315deg,rgba(215, 95, 175, 1) 0%, rgba(155, 95, 215, 1) 50%, rgba(85, 115, 235, 1) 100%);
 }
 
 
@@ -83,16 +82,23 @@ navigation .navbar{
 	display: flex;
 	align-items: center;
 	justify-content:space-between;
-	font-size:24px ;
+	font-size:40px ;
+	font-weight: bold;
 	height: 200px;
 	padding: 30px;
 	margin: 0px;
 	margin-top: 50px;
-	border: 10px solid pink;
+	border: 5px solid whitesmoke;
 	border-radius: 10px;
-	background: radial-gradient(circle,rgba(250, 205, 60, 1) 0%, rgba(252, 70, 107, 1) 100%);
+	background: linear-gradient(315deg,rgba(215, 95, 175, 1) 0%, rgba(155, 95, 215, 1) 50%, rgba(85, 115, 235, 1) 100%);
 }
 
 #cookieBtn{
-	size: 24px;
+	 font-size: 80px;
+	 transition: transform 0.15s ease;
+}
+
+#cookieBtn:hover{
+	 transform: scale(1.2);
+
 }
